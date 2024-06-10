@@ -37,7 +37,7 @@
 <meta name="generator" content="Hexo 7.2.0"></head>
 
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -58,7 +58,7 @@
         
           <a class="main-nav-link" href="/hexo1/">Homepage</a>
         
-          <a class="main-nav-link" href="/hexo1/archives">View All</a>
+          <a class="main-nav-link" href="/hexo1/blog">View All</a>
         
           <a class="main-nav-link" href="/hexo1/About">About Us</a>
         
@@ -229,7 +229,7 @@
   
     <a href="/hexo1/" class="mobile-nav-link">Homepage</a>
   
-    <a href="/hexo1/archives" class="mobile-nav-link">View All</a>
+    <a href="/hexo1/blog" class="mobile-nav-link">View All</a>
   
     <a href="/hexo1/About" class="mobile-nav-link">About Us</a>
   
@@ -254,5 +254,19 @@
 
 
   </div>
+  <style>
+    .fullPage #main {
+      width: 100%;
+      float:none;
+      margin: 0;
+    }
+    /* 讓中間區塊置中、滿版，並且設定 Margin 為 0。 */
+    .fullPage .article-meta, 
+    .fullPage .article-header, 
+    .fullPage .article-footer{
+      display:none;
+    }
+    /* 去網頁看不想要區域的 class 名稱是什麼，下此 css */
+  </style>
 </body>
 </html>
